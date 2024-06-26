@@ -5,7 +5,7 @@ import { ProductInfo, ShoppingCartContext } from "@/app/context/ShoppingCartCont
 import { formatCurrency } from "@/app/utils/formatCurrency";
 
 export default function CartCard({ id, image, price, quantity, title }: ProductInfo) {
-  const { increaseItemQuantity, decreaseItemQuantity, removeFromCart, cartItems } = useContext(ShoppingCartContext);
+  const { increaseItemQuantity, decreaseItemQuantity, removeFromCart } = useContext(ShoppingCartContext);
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md flex items-center relative flex-row">
