@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Shopping Cart com Tailwind CSS
 
-## Getting Started
+> Uma interface simples de um carrinho de compras construída para demonstrar o uso de React com Tailwind CSS para estilização e manipulação de estado no lado do cliente.
 
-First, run the development server:
+Este projeto é um exercício focado em criar uma experiência de usuário fluida e responsiva para um e-commerce, utilizando um setup moderno com Vite.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✨ Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Adicionar Produtos:** Adiciona produtos de uma lista para o carrinho.
+* **Visualizar Carrinho:** Exibe os itens adicionados, suas quantidades e preços.
+* **Cálculo Dinâmico:** O valor total do carrinho é atualizado em tempo real.
+* **Interface Responsiva:** O layout se adapta a diferentes tamanhos de tela.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+### 🛠️ Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+* **[React](https://react.dev/)** - Biblioteca para a construção da interface de usuário.
+* **[Vite](https://vitejs.dev/)** - Ferramenta de build para um desenvolvimento front-end moderno e rápido.
+* **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utility-first para estilização rápida e customizável.
+* **JavaScript (ES6+)** - Linguagem base para a lógica do projeto.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 🚀 Como Executar o Projeto
 
-## Deploy on Vercel
+Siga os passos abaixo para executar o projeto em seu ambiente local.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Pré-requisitos:**
+* [Node.js](https://nodejs.org/en/) (versão 16 ou superior)
+* [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Instalação e Execução:**
+
+1.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/davismarciel/shopping-cart-tailwind.git](https://github.com/davismarciel/shopping-cart-tailwind.git)
+    ```
+
+2.  Navegue até o diretório do projeto:
+    ```bash
+    cd shopping-cart-tailwind
+    ```
+
+3.  Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4.  Execute a aplicação em modo de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+5.  Abra seu navegador e acesse `http://localhost:5173` (ou a porta indicada no terminal).
